@@ -36,7 +36,7 @@ function Feature() {
 </div>
     </div>
     <div>
-        <img src={a} alt='video-repo'/>
+        <img src={a} alt='video-repo' className='h-5/6'/>
     </div>
 </main>
         </section>
