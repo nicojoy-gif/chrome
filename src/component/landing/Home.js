@@ -18,7 +18,7 @@ function Home() {
 </div>
       <section className='lg:h-screen h-full bg-white flex items-center mb-5 justify-center'>
         <div className='grid lg:grid-cols-2 grid-cols-1 container m-auto'>
-          <div className='flex flex-col content-center mx-5'>
+          <div className='flex flex-col content-center items-center justify-center mx-5'>
             <div className='text-start w-5/6'>
               <h1 className='py-2 text-herotext font-bold text-6xl'>Show Them <br/> Don't Just Tell</h1>
               <p className='py-2 text-xl opacity-75'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>

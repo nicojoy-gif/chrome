@@ -94,14 +94,14 @@ const handleSignup = async (e) => {
                       <div >
                         <img src={google} alt="google-logo" />
                       </div>
-                      <span className="ml-4 text-herotext font-medium" onClick={handleGoogleSignIn}>Continue with Google</span>
+                      <span className="ml-4 text-herotext font-medium" >Continue with Google</span>
                     </button>
 
                     <button className="w-full font-bold shadow-sm rounded-lg py-2 border border-herotext text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline mt-5">
                       <div>
                         <img src={facebook} alt="facebok-logo"/>
                       </div>
-                      <span className="ml-4 text-herotext font-medium" onClick={handleFacebookLogin}>Continue with Facebook</span>
+                      <span className="ml-4 text-herotext font-medium" >Continue with Facebook</span>
                     </button>
                   </div>
 
@@ -112,7 +112,7 @@ const handleSignup = async (e) => {
                   </div>
 
                   <div className="mx-auto w-full">
-                    <form className="flex justify-start flex-col" onSubmit={handleLogin}>
+                    <form className="flex justify-start flex-col" >
                     {error && ( 
             <div className="mb-4 text-red-600">{error}</div>
           )}
