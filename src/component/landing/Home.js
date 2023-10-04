@@ -29,7 +29,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div  className='mx-5'>
+          <div  className='mx-5 my-7'>
           <div className='absolute  top-10 hidden xl:block right-5'>
               <img src={b2} className='w-full' alt='grid 1' />
             </div>

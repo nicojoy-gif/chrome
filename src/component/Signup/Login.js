@@ -4,7 +4,7 @@ import google from "../../Assets/Google svg.png";
 import facebook from "../../Assets/Facebook svg.png";
 import { auth } from "../Config/Firebase";
 import { FacebookAuthProvider, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 function Login() {
   
   const [email, setEmail] = useState("");
@@ -139,7 +139,7 @@ const handleSignup = async (e) => {
                     </div>
                     <button type="submit" className="mt-5 tracking-wide font-semibold bg-bluetwo text-gray-100 w-full py-3 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                       
-                      <span className="ml-3">Sign Up</span>
+                     <Link to='/video'><span className="ml-3">Sign Up</span></Link>
                     </button>
                     </form>
                     
