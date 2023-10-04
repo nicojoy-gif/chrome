@@ -6,7 +6,7 @@ import b3 from '../../Assets/Icon placeholder.png'
 function Feature() {
   return (
     <div className='my-10 ' id='feature'>
-        <section className='lg:h-screen h-full bg-white'>
+        <section className=' h-full bg-white'>
 <header className='text-center py-5'>
     <h1 className='text-6xl font-bold py-3'>Features</h1>
     <p className='text-xl text-gray-600'>Key Highlights of Our Extension</p>

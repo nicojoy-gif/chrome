@@ -17,7 +17,7 @@ function Home() {
       <Nav />
 </div>
       <section className='lg:h-screen h-full bg-white flex items-center mb-5 justify-center'>
-        <div className='grid lg:grid-cols-2 grid-cols-1 container m-auto'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 gap-7 container m-auto'>
           <div className='flex flex-col content-center items-center justify-center mx-5'>
             <div className='text-start w-5/6'>
               <h1 className='py-2 text-herotext font-bold text-6xl'>Show Them <br/> Don't Just Tell</h1>
@@ -30,10 +30,10 @@ function Home() {
             </div>
           </div>
           <div  className='mx-5 my-7'>
-          <div className='absolute  top-10 hidden xl:block right-5'>
+          <div className='absolute  top-10 hidden lg:block right-5'>
               <img src={b2} className='w-full' alt='grid 1' />
             </div>
-            <div className='absolute hidden xl:block bottom-5 right-1/3'>
+            <div className='absolute hidden lg:block bottom-5 right-1/3'>
               <img src={b} alt='grid 2' className='h-1/2' />
             </div>
           <div className='relative flex justify-center items-center'>
