@@ -4,6 +4,7 @@ import Home from '../landing/Home'
 import Login from '../Signup/Login'
 import Videorepo from '../Videorepo/Videorepo'
 import Record from '../record/Record'
+import Download from '../Videorepo/Download'
 
 function Index() {
   return (
@@ -13,6 +14,7 @@ function Index() {
     <Route path='/login' element={<Login />}/>
     <Route path='/video' element={<Videorepo />} />
     <Route path='/rec' element={<Record />} />
+    <Route path='/download' element={<Download />} />
 </Routes>
     </>
   )
