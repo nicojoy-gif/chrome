@@ -23,7 +23,7 @@ function Home() {
               <h1 className='py-2 text-herotext font-bold text-6xl'>Show Them <br/> Don't Just Tell</h1>
               <p className='py-2 text-xl opacity-75'>Help your friends and loved ones by creating and sending videos on how to get things done on a website.</p>
               <div className='py-5'>
-                <Link to='/login'>
+                <Link to='https://drive.google.com/drive/folders/1MLuLSQiWmVX6NoHBN03EXENQ8Z0f-dsa?usp=sharing'>
                 <button className='bg-bluetwo rounded-lg py-2 px-5 text-center text-white text-lg font-medium'>Install HelpMeOut &rarr; </button>
               </Link>
               </div>
