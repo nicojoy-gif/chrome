@@ -12,7 +12,7 @@ function Nav() {
 
   return (
     <div>
-      <div className="h-16 z-999 w-full mb-5 bg-white  shadow-lg">
+      <div className="h-16 z-999 w-full fixed bg-white shadow-lg">
         <section className="fixed mx-auto"> 
           <nav className="flex flex-col xl:flex-row text-white w-screen">
             <div className="container mx-auto flex flex-col lg:flex-row justify-between lg:items-center items-start">
