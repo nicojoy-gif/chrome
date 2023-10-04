@@ -36,8 +36,8 @@ function Download() {
   return (
     <div>
       <Nav />
-      <section className="mt-12 py-10">
-        <div className="grid mt-10 lg:grid-cols-2 grid-cols-1 h-full container pt-10 mx-auto">
+      <section className=" py-10">
+        <div className="grid  lg:grid-cols-2 grid-cols-1 h-full container pt-10 mx-auto">
           <div className="border-r-2 border-gray-200">
             <h1 className="text-herotext font-bold pb-5 text-4xl py-10">Your video is ready</h1>
             <div>
